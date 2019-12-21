@@ -1,0 +1,24 @@
+{
+  "name": "ollieread/mmo-game",
+  "license": "proprietary",
+  "type": "project",
+  "authors": [
+    {
+      "name": "Ollie Read",
+      "email": "me@ollieread.com"
+    }
+  ],
+  "require": {
+    "php": "^7.4",
+    "ext-ds": "*",
+    "php-ds/php-ds": "^1.2"
+  },
+  "require-dev": {
+    "roave/security-advisories": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "Ollieread\\MMO\\": "src/"
+    }
+  }
+}
