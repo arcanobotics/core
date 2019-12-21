@@ -1,8 +1,8 @@
 <?php
 
-namespace Ollieread\MMO\Entities\Components;
+namespace Arcanobotics\Core\Entities\Components;
 
-use Ollieread\MMO\Entities\Contracts\Component;
+use Arcanobotics\Core\Entities\Contracts\Component;
 
 class Health implements Component
 {

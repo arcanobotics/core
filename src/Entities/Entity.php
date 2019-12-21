@@ -1,15 +1,15 @@
 <?php
 
-namespace Ollieread\MMO\Entities;
+namespace Arcanobotics\Core\Entities;
 
-use Ollieread\MMO\Concerns\BootableTraits;
-use Ollieread\MMO\Concerns\HasComponents;
-use Ollieread\MMO\Concerns\HasId;
-use Ollieread\MMO\Entities\Components\Health;
-use Ollieread\MMO\Entities\Components\Movement;
-use Ollieread\MMO\Entities\Components\UserControlled;
-use Ollieread\MMO\Entities\Contracts\Entity as Contract;
-use Ollieread\MMO\Support\ClassNames;
+use Arcanobotics\Core\Concerns\BootableTraits;
+use Arcanobotics\Core\Concerns\HasComponents;
+use Arcanobotics\Core\Concerns\HasId;
+use Arcanobotics\Core\Entities\Components\Health;
+use Arcanobotics\Core\Entities\Components\Movement;
+use Arcanobotics\Core\Entities\Components\UserControlled;
+use Arcanobotics\Core\Entities\Contracts\Entity as Contract;
+use Arcanobotics\Core\Support\ClassNames;
 
 abstract class Entity implements Contract
 {

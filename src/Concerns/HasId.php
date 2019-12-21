@@ -1,8 +1,8 @@
 <?php
 
-namespace Ollieread\MMO\Concerns;
+namespace Arcanobotics\Core\Concerns;
 
-use Ollieread\MMO\Support\Snowflake;
+use Arcanobotics\Core\Support\Snowflake;
 use RuntimeException;
 
 trait HasId
@@ -10,9 +10,9 @@ trait HasId
     private ?Snowflake $id = null;
 
     /**
-     * @param \Ollieread\MMO\Support\Snowflake|null $id
+     * @param \Arcanobotics\Core\Support\Snowflake|null $id
      *
-     * @return \Ollieread\MMO\Concerns\HasId
+     * @return \Arcanobotics\Core\Concerns\HasId
      */
     public function setId(?Snowflake $id): self
     {

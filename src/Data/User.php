@@ -1,8 +1,8 @@
 <?php
 
-namespace Ollieread\MMO\Data;
+namespace Arcanobotics\Core\Data;
 
-use Ollieread\MMO\Support\Snowflake;
+use Arcanobotics\Core\Support\Snowflake;
 
 class User
 {
@@ -11,7 +11,7 @@ class User
     private string $username;
 
     /**
-     * @return \Ollieread\MMO\Support\Snowflake
+     * @return \Arcanobotics\Core\Support\Snowflake
      */
     public function getId(): Snowflake
     {
@@ -19,7 +19,7 @@ class User
     }
 
     /**
-     * @param \Ollieread\MMO\Support\Snowflake $id
+     * @param \Arcanobotics\Core\Support\Snowflake $id
      *
      * @return User
      */

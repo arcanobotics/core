@@ -1,6 +1,6 @@
 <?php
 
-namespace Ollieread\MMO\Entities;
+namespace Arcanobotics\Core\Entities;
 
 class EntityNames
 {

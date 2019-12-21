@@ -1,10 +1,10 @@
 <?php
 
-namespace Ollieread\MMO\Entities\Components;
+namespace Arcanobotics\Core\Entities\Components;
 
-use Ollieread\MMO\Entities\Contracts\Component;
-use Ollieread\MMO\Support\Coord;
-use Ollieread\MMO\Support\Position;
+use Arcanobotics\Core\Entities\Contracts\Component;
+use Arcanobotics\Core\Support\Coord;
+use Arcanobotics\Core\Support\Position;
 
 class Location implements Component
 {
@@ -14,12 +14,12 @@ class Location implements Component
     }
 
     /**
-     * @var \Ollieread\MMO\Support\Position
+     * @var \Arcanobotics\Core\Support\Position
      */
     private Position $position;
 
     /**
-     * @var \Ollieread\MMO\Support\Coord
+     * @var \Arcanobotics\Core\Support\Coord
      */
     private Coord $coords;
 
@@ -29,7 +29,7 @@ class Location implements Component
     }
 
     /**
-     * @return \Ollieread\MMO\Support\Position
+     * @return \Arcanobotics\Core\Support\Position
      */
     public function getPosition(): Position
     {
@@ -37,7 +37,7 @@ class Location implements Component
     }
 
     /**
-     * @return \Ollieread\MMO\Support\Coord
+     * @return \Arcanobotics\Core\Support\Coord
      */
     public function getCoords(): Coord
     {

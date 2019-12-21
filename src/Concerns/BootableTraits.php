@@ -1,6 +1,6 @@
 <?php
 
-namespace Ollieread\MMO\Concerns;
+namespace Arcanobotics\Core\Concerns;
 
 trait BootableTraits
 {

@@ -1,10 +1,10 @@
 <?php
 
-namespace Ollieread\MMO\Entities\Components;
+namespace Arcanobotics\Core\Entities\Components;
 
+use Arcanobotics\Core\Entities\Contracts\Attribute;
 use Ds\Map;
 use InvalidArgumentException;
-use Ollieread\MMO\Entities\Contracts\Attribute;
 
 class Attributes
 {

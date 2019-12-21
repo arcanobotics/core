@@ -1,11 +1,11 @@
 <?php
 
-namespace Ollieread\MMO\Concerns;
+namespace Arcanobotics\Core\Concerns;
 
+use Arcanobotics\Core\Entities\Components;
+use Arcanobotics\Core\Entities\Contracts\Component;
+use Arcanobotics\Core\Entities\Contracts\Components as ComponentsContract;
 use Ds\Sequence;
-use Ollieread\MMO\Entities\Contracts\Component;
-use Ollieread\MMO\Entities\Contracts\Components as ComponentsContract;
-use Ollieread\MMO\Entities\Components;
 
 trait HasComponents
 {

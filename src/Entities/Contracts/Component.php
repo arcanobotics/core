@@ -1,6 +1,6 @@
 <?php
 
-namespace Ollieread\MMO\Entities\Contracts;
+namespace Arcanobotics\Core\Entities\Contracts;
 
 interface Component
 {

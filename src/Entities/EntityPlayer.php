@@ -1,12 +1,12 @@
 <?php
 
-namespace Ollieread\MMO\Entities;
+namespace Arcanobotics\Core\Entities;
 
-use Ollieread\MMO\Entities\Components\Effects;
-use Ollieread\MMO\Entities\Components\Health;
-use Ollieread\MMO\Entities\Components\Location;
-use Ollieread\MMO\Entities\Components\Movement;
-use Ollieread\MMO\Support\Position;
+use Arcanobotics\Core\Entities\Components\Effects;
+use Arcanobotics\Core\Entities\Components\Health;
+use Arcanobotics\Core\Entities\Components\Location;
+use Arcanobotics\Core\Entities\Components\Movement;
+use Arcanobotics\Core\Support\Position;
 
 class EntityPlayer extends Entity
 {

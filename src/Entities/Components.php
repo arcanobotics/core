@@ -1,11 +1,11 @@
 <?php
 
-namespace Ollieread\MMO\Entities;
+namespace Arcanobotics\Core\Entities;
 
+use Arcanobotics\Core\Entities\Contracts\Component;
+use Arcanobotics\Core\Entities\Contracts\Components as Contract;
 use Ds\Map;
 use Ds\Sequence;
-use Ollieread\MMO\Entities\Contracts\Component;
-use Ollieread\MMO\Entities\Contracts\Components as Contract;
 
 class Components implements Contract
 {

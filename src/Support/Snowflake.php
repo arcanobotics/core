@@ -1,6 +1,6 @@
 <?php
 
-namespace Ollieread\MMO\Support;
+namespace Arcanobotics\Core\Support;
 
 final class Snowflake
 {

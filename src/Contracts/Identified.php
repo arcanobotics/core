@@ -1,8 +1,8 @@
 <?php
 
-namespace Ollieread\MMO\Contracts;
+namespace Arcanobotics\Core\Contracts;
 
-use Ollieread\MMO\Support\Snowflake;
+use Arcanobotics\Core\Support\Snowflake;
 
 interface Identified
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace Ollieread\MMO\Worlds\Contracts;
+namespace Arcanobotics\Core\Worlds\Contracts;
 
-use Ollieread\MMO\Contracts\Identified;
+use Arcanobotics\Core\Contracts\Identified;
 
 interface World extends Identified
 {

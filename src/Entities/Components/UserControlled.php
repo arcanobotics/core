@@ -1,16 +1,16 @@
 <?php
 
-namespace Ollieread\MMO\Entities\Components;
+namespace Arcanobotics\Core\Entities\Components;
 
-use Ollieread\MMO\Data\User;
-use Ollieread\MMO\Entities\Contracts\Component;
+use Arcanobotics\Core\Data\User;
+use Arcanobotics\Core\Entities\Contracts\Component;
 
 class UserControlled implements Component
 {
     private User $user;
 
     /**
-     * @return \Ollieread\MMO\Data\User
+     * @return \Arcanobotics\Core\Data\User
      */
     public function getUser(): User
     {
@@ -18,7 +18,7 @@ class UserControlled implements Component
     }
 
     /**
-     * @param \Ollieread\MMO\Data\User $user
+     * @param \Arcanobotics\Core\Data\User $user
      *
      * @return UserControlled
      */

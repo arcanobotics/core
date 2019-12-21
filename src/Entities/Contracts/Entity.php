@@ -1,8 +1,8 @@
 <?php
 
-namespace Ollieread\MMO\Entities\Contracts;
+namespace Arcanobotics\Core\Entities\Contracts;
 
-use Ollieread\MMO\Contracts\Identified;
+use Arcanobotics\Core\Contracts\Identified;
 
 interface Entity extends ComponentContainer, Identified
 {
