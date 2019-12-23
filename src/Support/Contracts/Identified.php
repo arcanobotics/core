@@ -1,6 +1,6 @@
 <?php
 
-namespace Arcanobotics\Core\Contracts;
+namespace Arcanobotics\Core\Support\Contracts;
 
 use Arcanobotics\Core\Support\Snowflake;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Arcanobotics\Core\Concerns;
+namespace Arcanobotics\Core\Support\Concerns;
 
 use Arcanobotics\Core\Support\Snowflake;
 use RuntimeException;
@@ -12,7 +12,7 @@ trait HasId
     /**
      * @param \Arcanobotics\Core\Support\Snowflake|null $id
      *
-     * @return \Arcanobotics\Core\Concerns\HasId
+     * @return \Arcanobotics\Core\Support\Concerns\HasId
      */
     public function setId(?Snowflake $id): self
     {

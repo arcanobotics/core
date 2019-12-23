@@ -1,6 +1,6 @@
 <?php
 
-namespace Arcanobotics\Core\Entities\Contracts;
+namespace Arcanobotics\Core\Components\Contracts;
 
 use Ds\Sequence;
 

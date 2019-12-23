@@ -2,11 +2,12 @@
 
 namespace Arcanobotics\Core\Entities;
 
-use Arcanobotics\Core\Entities\Components\Effects;
-use Arcanobotics\Core\Entities\Components\Health;
-use Arcanobotics\Core\Entities\Components\Location;
-use Arcanobotics\Core\Entities\Components\Movement;
+use Arcanobotics\Core\Components\Effects;
+use Arcanobotics\Core\Components\Health;
+use Arcanobotics\Core\Components\Location;
+use Arcanobotics\Core\Components\Movement;
 use Arcanobotics\Core\Support\Position;
+use Arcanobotics\Core\Support\Size;
 
 class EntityPlayer extends Entity
 {
@@ -20,5 +21,12 @@ class EntityPlayer extends Entity
             ->add(new Location(new Position(0, 0)))
             ->add(new Health(self::BASE_HEALTH))
             ->add(new Effects);
+    }
+
+    public function boot(): void
+    {
+        parent::boot();
+
+        $this->setSize(new Size(35, 24, 7));
     }
 }

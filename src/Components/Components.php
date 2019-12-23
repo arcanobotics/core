@@ -1,9 +1,9 @@
 <?php
 
-namespace Arcanobotics\Core\Entities;
+namespace Arcanobotics\Core\Components;
 
-use Arcanobotics\Core\Entities\Contracts\Component;
-use Arcanobotics\Core\Entities\Contracts\Components as Contract;
+use Arcanobotics\Core\Components\Contracts\Component;
+use Arcanobotics\Core\Components\Contracts\Components as Contract;
 use Ds\Map;
 use Ds\Sequence;
 

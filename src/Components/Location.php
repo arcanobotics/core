@@ -1,8 +1,8 @@
 <?php
 
-namespace Arcanobotics\Core\Entities\Components;
+namespace Arcanobotics\Core\Components;
 
-use Arcanobotics\Core\Entities\Contracts\Component;
+use Arcanobotics\Core\Components\Contracts\Component;
 use Arcanobotics\Core\Support\Coord;
 use Arcanobotics\Core\Support\Position;
 

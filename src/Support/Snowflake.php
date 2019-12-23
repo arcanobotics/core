@@ -2,7 +2,9 @@
 
 namespace Arcanobotics\Core\Support;
 
-final class Snowflake
+use Ds\Hashable;
+
+final class Snowflake implements Hashable
 {
     protected int  $timestamp;
 
@@ -66,8 +68,30 @@ final class Snowflake
         ];
     }
 
-    public function is(Snowflake $snowflake): bool
+    public function is(?Snowflake $snowflake = null): bool
     {
-        return $this->id === $snowflake->id();
+        return $snowflake ? $this->id === $snowflake->id() : false;
+    }
+
+    /**
+     * @return string
+     */
+    public function hash(): string
+    {
+        return (string) $this;
+    }
+
+    /**
+     * @param $obj
+     *
+     * @return bool
+     */
+    public function equals($obj): bool
+    {
+        if ($obj instanceof self) {
+            return $this->is($obj);
+        }
+
+        return false;
     }
 }

@@ -1,6 +1,6 @@
 <?php
 
-namespace Arcanobotics\Core\Concerns;
+namespace Arcanobotics\Core\Support\Concerns;
 
 trait BootableTraits
 {

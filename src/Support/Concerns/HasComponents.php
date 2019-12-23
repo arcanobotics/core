@@ -1,10 +1,10 @@
 <?php
 
-namespace Arcanobotics\Core\Concerns;
+namespace Arcanobotics\Core\Support\Concerns;
 
-use Arcanobotics\Core\Entities\Components;
-use Arcanobotics\Core\Entities\Contracts\Component;
-use Arcanobotics\Core\Entities\Contracts\Components as ComponentsContract;
+use Arcanobotics\Core\Components\Components;
+use Arcanobotics\Core\Components\Contracts\Component;
+use Arcanobotics\Core\Components\Contracts\Components as ComponentsContract;
 use Ds\Sequence;
 
 trait HasComponents
@@ -21,16 +21,16 @@ trait HasComponents
         return $this->components->all();
     }
 
+    public function has(string $componentClass): bool
+    {
+        return $this->components->get($componentClass) !== null;
+    }
+
     protected function add(Component $component): self
     {
         $this->components->add($component);
 
         return $this;
-    }
-
-    public function has(string $componentClass): bool
-    {
-        return $this->components->get($componentClass) !== null;
     }
 
     protected function bootHasComponents(): void
